@@ -68,7 +68,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
      grid-template-rows: repeat(4 1fr) ;
     }
 
-    @media only screen and (min-width: 500px){
+    @media only screen and (max-width: 500px){
         .contenedor{
         
             width: 90%;
@@ -255,6 +255,7 @@ footer{
     width: auto;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    text-shadow: #2b88d9;
 }
 .imauto{
     width: 20rem;
@@ -262,11 +263,18 @@ footer{
     image-rendering: auto;
     display: center;
     margin-left: 30px;
+    border-radius: 10%;
 
+}
+.imauto:hover{
+    transform: scale(1.5);
+    transition: 3s;
+    border:solid 2px black
 }
 .t-auto{
     text-align: center;
     color:#3b679e;
+    text-decoration: wavy;
 }
 .smarca{
     display:block;
@@ -283,6 +291,9 @@ footer{
     width: auto;
    
 }
+.h3marcadif:hover{
+    transform: scale(1.5);
+}
 .h3marca{
     font-size: 4rem;
     font-family:'Courier New', Courier, monospace ;
@@ -292,6 +303,9 @@ footer{
     text-align: center;
     width: auto;
 }
+.h3marca:hover{
+    transform:scale(1.5)
+}
 .immarca{
     width: 20rem;
     position: static;
@@ -299,6 +313,12 @@ footer{
     margin-left: 10px;
     margin-right: 10px;
     display: center;
+    }
+    .immarca:hover{
+        transform: rotate(30deg);
+    }
+    .immarcaa:hover{
+        transform: rotate(30deg);
     }
 .immarcaa{
     width: 20rem;
@@ -315,6 +335,9 @@ footer{
     display: center;
     margin-left: 10px;
     margin-right: 10px;
+    }
+    .immarcadif:hover{
+        transform: rotate(-30deg); 
     }
 .pmarca{
     display: block;
@@ -353,6 +376,7 @@ footer{
 .h2mifocus{
     color: black;
     text-align: center;
+    font-size: 45px;
     margin-top: 5rem;
     margin-bottom: 0.5rem;
 }
@@ -419,22 +443,31 @@ footer{
 .imgken{
     width: 30rem;
     margin-bottom: 1rem;
-    
+    border-radius: 15%;
 
+}
+.imgken:hover{
+    transform: rotate(-25deg);
 }
 .pken{
     text-align: right;
-    
+    color:white;
+    margin-bottom: 1rem;
 }
 .imgwrc{
     width: 30rem;
+    border-radius: 15%;
     
+}
+.imgwrc:hover{
+    transform: rotate(-25deg);
 }
 .pwrc{
     text-align: right;
     margin-bottom: 1rem;
+    color:white;
     
-
+    
 }
 .pult{
     margin-left: 5%;
@@ -470,4 +503,11 @@ width: 100%;
 .final:hover{
     transform: rotate(90);
     transform:scale(1.5)
+}
+.h2galeria{
+   text-align: center;
+   margin-bottom: 20px;
+   margin-top:10px; 
+   color: #3b679e;
+   text-decoration: dashed;
 }
