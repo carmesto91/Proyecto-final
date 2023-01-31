@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color :grey;
+ /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#f2f6f8+0,d8e1e7+50,b5c6d0+51,e0eff9+100;Grey+Gloss+%232 */
+background: rgb(242,246,248); /* Old browsers */
+background: -moz-linear-gradient(top,  rgba(242,246,248,1) 0%, rgba(216,225,231,1) 50%, rgba(181,198,208,1) 51%, rgba(224,239,249,1) 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  rgba(242,246,248,1) 0%,rgba(216,225,231,1) 50%,rgba(181,198,208,1) 51%,rgba(224,239,249,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', endColorstr='#e0eff9',GradientType=0 ); /* IE6-9 */
+
+}
+.header-index{
+    position: sticky;
+    top: 0px;
+    
+}
+h1{
+    color: #207cca;
+    text-align: center;
+    background-color: white;
+    
+}
+nav{
+    width: 100%;
+    height: 35px;
+    margin:0 auto;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+    background: #3b679e; /* Old browsers */
+    background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-ford{
+    width: 80px;
+    padding: 5px;
+    margin: auto;
+    
+}
+nav ul{
+    list-style: none;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    
+}
+.s-home{
+    justify-content: space-between;
+    display: inline-block;
+    width: auto;
+    
+}
+nav ul .historia{
+    position: absolute;
+    display: none;
+}
+nav li:hover{
+    color:white;
+    font-weight: bold;
+}
+nav ul ul li{
+    display: block;
+}
+nav ul a{
+    color: black;
+    padding: 0.7rem;
+    text-decoration: none;
+    align-items: baseline;
+}
+nav ul:hover .historia {
+    display:block;
+    position:absolute;
+    top: 4.4rem;
+    font-size: large;
+    background-color:#7db9e8;
+    
+}
+
+.foto-principal{
+    margin-top: 2rem;
+    margin-left: 0.5rem;
+    width: 45%;
+    position: static;
+    border-radius: 1rem;
+}
+.hometext{
+    position: static;
+    margin-right: 0.5rem;
+    margin-top: -10rem;
+    margin-left: 50%;
+    margin-bottom: 0.5rem;
+    width: 50%;
+    text-align: center;
+    
+    
+}
+footer{
+    position: unset;
+    padding: 1rem;
+   /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+   background: #3b679e; /* Old browsers */
+   background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+   background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+   background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */;
+    margin-top: 15%;
+    margin-bottom: 0.1%;
+    text-align: center;
+    color: black;
+}
+.saut{
+    display:block;
+    width: auto;
+    padding: auto;
+}
+.hauto{
+    color:#3b679e;
+    text-align: center;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.imauto{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 55%;
+    margin-top: -3rem;
+    margin-bottom: -3rem;
+
+}
+.saut p{
+    display: block;
+    color:#207cca;
+    text-align: justify;
+    margin-left:0.5rem;
+    margin-right: 49%;
+    
+}
+.smarca{
+    display:block;
+    width: auto;
+    padding: auto;
+    font-family: cursive;
+}
+.h3marcadif{
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace ;
+    color:#3b679e;
+    text-align: right;
+    margin-left: 2rem;
+    margin-right: 25%;
+    width: auto;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+.h3marca{
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace ;
+    color:#3b679e;
+    text-align: left;
+    width: auto;
+    margin-left: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 1rem;
+}
+.immarca{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 5%;
+    margin-right: 49%;
+    margin-top: -10rem;
+    margin-bottom: 1rem;
+}
+.immarcaa{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 2%;
+    margin-right: 49%;
+    margin-top: -20rem;
+    margin-bottom: 3rem;
+}
+.immarcadif{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 55%;
+    margin-top: -5rem;
+    margin-bottom: 1rem;
+}
+.pmarca{
+    display: block;
+    color:#207cca;
+    text-align: justify;
+    margin-top: 2rem;
+    margin-right:1rem;
+    margin-left: 55%;
+}
+.pmarcadif{
+    display: block;
+    color:#207cca;
+    text-align: justify;
+    margin-left:1rem;
+    margin-right: 49%;
+}
+.galeria{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.galeria img{
+    position:static;
+    opacity: .3;
+    width: 250px;
+    border: black double 2px;
+    border-radius: 10px;
+    margin-top: 0.5rem;
+}
+.galeria img:hover{
+    opacity: 1;
+    border: solid 2px darkblue;
+}
+.h2mifocus{
+    color: black;
+    text-align: center;
+    margin-top: 5rem;
+    margin-bottom: 0.5rem;
+}
+.h2mifocus2{
+    color: #3b679e;
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: cursive;
+
+}
+.mifocusp{
+    width: 40rem;
+    display:block;
+    justify-content: center;
+    margin-left: 29%;
+    margin-right: 29%;
+}
+.mifocp{
+    color:darkblue;
+    text-align: center;
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.mifocusimg{
+    position: relative;
+    display: flexbox;
+    flex-direction: row;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    
+}
+.mifocussec{
+    width: 20rem;
+    margin-left: 15%;
+    
+}
+.mifocussec2{
+    width: 20rem;
+}
+.mifocussec3{
+    width: 20rem;
+
+    margin-right: 15%;
+}
+.mifocusse1{
+    width: 20rem;
+    margin-left: 15%;
+}
+.mifocusse2{
+    width: 20rem;
+}
+.mifocusse3{
+    width: 20rem;
+    margin-right: 15%;
+}
+.imgken{
+    width: 20rem;
+    margin-top: 1rem;
+    margin-bottom: 5rem;
+    margin-left: 5%;
+
+}
+.pken{
+    text-align: right;
+    margin-left: 60%;
+    margin-right: 5%;
+    margin-top: -15rem;
+    margin-bottom: 10rem;
+}
+.imgwrc{
+    width: 20rem;
+    margin-left: 50%;
+    margin-right: 5%;
+}
+.pwrc{
+    margin-right: 60%;
+    margin-left: 5%;
+    margin-top: -16rem;
+
+}
+.pult{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 3rem;
+}
