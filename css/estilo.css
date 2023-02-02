@@ -34,7 +34,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
    height: 90%;
     font-size: 1rem;
     text-align: center;
-    margin-top: 15rem;
+    margin-top: 25rem;
     margin:10px;
     margin-left: 10px;
      margin-right: 10px;
@@ -124,7 +124,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
                  
     }
 .header-index{
-    position: sticky;
+   
     top: 0px;
     
 }
@@ -139,6 +139,7 @@ nav{
     width: 100%;
     height: 35px;
     margin:0;
+    margin-bottom: 2rem;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
     background: #3b679e; /* Old browsers */
     background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
@@ -289,7 +290,7 @@ footer{
    margin-bottom: 1rem;
     text-align: center;
     width: auto;
-   
+   margin-top: 2rem;
 }
 .h3marcadif:hover{
     transform: scale(1.5);
@@ -510,4 +511,11 @@ width: 100%;
    margin-top:10px; 
    color: #3b679e;
    text-decoration: dashed;
+}
+.btn{
+    margin-top: 2rem;
+    background-color: #3b679e;
+    margin-bottom: 0.5rem;
+    font-size: medium;
+    color: aliceblue;
 }
