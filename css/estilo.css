@@ -67,8 +67,28 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
      grid-template-columns: 1fr 1fr ;
      grid-template-rows: repeat(4 1fr) ;
     }
-
-    @media only screen and (max-width: 500px){
+    .navbar-nav{
+        margin-left: 50%;
+    }
+    @media only screen and (min-width: 300px ){
+        @media only screen and (max-width:720px) {
+            
+        
+        .navbar-nav{
+            /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
+            background: #3b679e; /* Old browsers */
+            background: -moz-linear-gradient(top,  #3b679e 0%, #2b88d9 50%, #207cca 51%, #7db9e8 100%); /* FF3.6-15 */
+            background: -webkit-linear-gradient(top,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+            background: linear-gradient(to bottom,  #3b679e 0%,#2b88d9 50%,#207cca 51%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3b679e', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */;
+            margin-top: -0.5rem;
+            width: 50%;
+            padding: 0.25rem;
+            margin-left: 50%;
+            margin-right: 5%;
+            border-radius: 15%;
+            
+         }
         .contenedor{
         
             width: 90%;
@@ -123,6 +143,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
                      }
                  
     }
+}
 .header-index{
    
     top: 0px;
@@ -137,7 +158,7 @@ h1{
 }
 nav{
     width: 100%;
-    height: 35px;
+    height: 55px;
     margin:0;
     margin-bottom: 2rem;
     /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3b679e+0,2b88d9+50,207cca+51,7db9e8+100;Blue+Gloss+%232 */
@@ -152,9 +173,7 @@ nav{
 }
 
 .logo-ford{
-    width: 80px;
-    padding: 5px;
-    margin: auto;
+    width: 80px;    
     
 }
 .logo-ford:hover{
@@ -180,8 +199,9 @@ nav ul .historia{
     display: none;
 }
 nav li:hover{
-    color:white;
+   
     font-weight: bold;
+    color:white;
 }
 nav ul ul li{
     display: block;
@@ -244,7 +264,17 @@ footer{
      color: black;
      margin-top: 10%;
     }
+     .navbar-toggler{
+        display: list-item;
+        color: aliceblue;
+        height: 15%;
+        position: sticky;
+     }
      
+
+.dropdown-menu{
+    background-color: #2b88d9;
+}
 .saut{
     display:block;
     width: auto;
@@ -519,3 +549,4 @@ width: 100%;
     font-size: medium;
     color: aliceblue;
 }
+
