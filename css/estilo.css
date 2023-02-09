@@ -70,7 +70,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
     .navbar-nav{
         margin-left: 50%;
     }
-    @media only screen and (min-width: 300px ){
+    @media only screen and (min-width: 200px ){
         @media only screen and (max-width:720px) {
             
         
@@ -87,7 +87,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
             margin-left: 50%;
             margin-right: 5%;
             border-radius: 15%;
-            
+            position: sticky;
          }
         .contenedor{
         
@@ -121,6 +121,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2f6f8', end
                 grid-template-columns: 1fr 1fr ;
                 grid-template-rows: repeat(2 1fr) ;
                      }
+        .h3marcadif{
+            margin-top:25%;
+        }
         .contenedor-marca2{
                 width: 90%;
                 height: 90%;
