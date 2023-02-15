@@ -11,6 +11,9 @@
         margin-top: 2rem;
         margin-bottom: 2rem;
         text-shadow: #2b88d9;
+        &:hover{
+            transform: scale(1.3);
+        }
     }
     .imauto{
         width: 20rem;
