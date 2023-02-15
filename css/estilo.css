@@ -32,17 +32,15 @@
         transform: rotate(10deg);
         transform: scale(1.3); }
     .header-index nav .navbar-nav {
+      margin-left: 50%;
       justify-content: space-between; }
       .header-index nav .navbar-nav:hover {
-        text-decoration: bold;
-        text-decoration: solid; }
-      .header-index nav .navbar-nav .nav-item {
-        list-style: none; }
+        text-decoration: bold; }
+        .header-index nav .navbar-nav:hover .dropdown-menu {
+          background-color: #7db9e8; }
     .header-index nav .navbar-toggler {
-      display: list-item;
       color: aliceblue;
-      height: 15%;
-      position: sticky; }
+      height: 15%; }
 
 @media only screen and (min-width: 200px) and (max-width: 720px) {
   .header-index .navbar-nav {
