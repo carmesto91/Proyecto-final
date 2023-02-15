@@ -1,0 +1,33 @@
+
+    .saut{
+        display:block;
+        width: auto;
+        padding: auto;
+    }
+    .hauto{
+        color:#3b679e;
+        text-align: center;
+        width: auto;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        text-shadow: #2b88d9;
+    }
+    .imauto{
+        width: 20rem;
+        position: static;
+        image-rendering: auto;
+        display: center;
+        margin-left: 30px;
+        border-radius: 10%;
+        &:hover{
+            transform: scale(1.5);
+            transition: 3s;
+            border:solid 2px black
+        }
+    }
+    
+    .t-auto{
+        text-align: center;
+        color:#3b679e;
+        text-decoration: wavy;
+    }

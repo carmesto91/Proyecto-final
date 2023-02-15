@@ -1,0 +1,30 @@
+
+    .imgken{
+        width: 30rem;
+        margin-bottom: 1rem;
+        border-radius: 15%;
+    &:hover{
+        transform: rotate(-25deg);
+    }
+    }
+    
+    .pken{
+        text-align: right;
+        color:white;
+        margin-bottom: 1rem;
+    }
+    .imgwrc{
+        width: 30rem;
+        border-radius: 15%;
+        &:hover{
+            transform: rotate(-25deg);
+        }
+    }
+    
+    .pwrc{
+        text-align: right;
+        margin-bottom: 1rem;
+        color:white;
+        
+        
+    } 

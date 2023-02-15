@@ -1,0 +1,164 @@
+.marca{
+.contenedor-marca{
+    width: 90%;
+    height: 90%;
+     font-size: 1rem;
+     text-align: center;
+     margin-top: 25rem;
+     margin:10px;
+     margin-left: 10px;
+      margin-right: 10px;
+     display: grid;
+     grid-template-areas: 
+         "pfa ifa"
+         "ifb ifb"
+         
+         ;
+     grid-template-columns: 1fr 1fr ;
+     grid-template-rows: repeat(2 1fr) ;
+     }
+ .contenedor-marca2{
+     width: 90%;
+     height: 90%;
+      font-size: 1rem;
+      text-align: center;
+      margin-top: 15rem;
+      margin-left: 10px;
+      margin-right: 10px;
+      margin:10px;
+      display: grid;
+      grid-template-areas: 
+          "pma ima"
+          "imb pmb"
+          "pmc imc"
+          "imd pmd"
+          
+          ;
+      grid-template-columns: 1fr 1fr ;
+      grid-template-rows: repeat(4 1fr) ;
+     }
+     @media only screen and (min-width: 200px ){
+        @media only screen and (max-width:720px) {
+            .contenedor-marca{
+                width: 90%;
+                height: 90%;
+                font-size: 1rem;
+                text-align: center;
+                margin-top: 25%;
+                margin:10px;
+                margin-left: 10px;
+                margin-right: 10px;
+                display: grid;
+                grid-template-areas: 
+                "pfa ifa"
+                "ifb ifb"
+                        
+                ;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: repeat(2 1fr) ;
+                     }
+        .h3marcadif{
+            margin-top:25%;
+        }
+        .contenedor-marca2{
+                width: 90%;
+                height: 90%;
+                font-size: 1rem;
+                text-align: center;
+                margin-top: 15rem;
+                margin-left: 10px;
+                margin-right: 10px;
+                margin:10px;
+                display: grid;
+                grid-template-areas: 
+                "pma ima"
+                "imb pmb"
+                "pmc imc"
+                "imd pmd"
+                          
+                          ;
+                grid-template-columns: 1fr 1fr ;
+                grid-template-rows: repeat(4 1fr) ;
+                     }
+                 
+    }
+}
+.h3marcadif{
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace ;
+    color:#3b679e;
+   margin-bottom: 1rem;
+    text-align: center;
+    width: auto;
+   margin-top: 2rem;
+   &:hover{
+    transform: scale(1.5);
+   }
+}
+
+.h3marca{
+    font-size: 4rem;
+    font-family:'Courier New', Courier, monospace ;
+    color:#3b679e;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    text-align: center;
+    width: auto;
+    &:hover{
+        transform:scale(1.5)
+    }
+}
+
+.immarca{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: center;
+    &:hover{
+        transform: rotate(30deg);
+    }
+    }
+    
+    
+.immarcaa{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover{
+        transform: rotate(30deg);
+    }
+    }
+.immarcadif{
+    width: 20rem;
+    position: static;
+    image-rendering: auto;
+    display: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    &:hover{
+        transform: rotate(-30deg); 
+    }
+    
+.pmarca{
+    display: block;
+    color:#207cca;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+    }
+.pmarcadif{
+    display: block;
+    color:#207cca;
+    text-align: justify;
+    margin-top: 5rem;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+}
+}
