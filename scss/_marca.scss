@@ -93,6 +93,7 @@
    margin-top: 2rem;
    &:hover{
     transform: scale(1.5);
+    transition: 0.5s;
    }
 }
 
@@ -105,7 +106,8 @@
     text-align: center;
     width: auto;
     &:hover{
-        transform:scale(1.5)
+        transform:scale(1.5);
+        transition: 0.5s;
     }
 }
 
@@ -118,6 +120,7 @@
     display: center;
     &:hover{
         transform: rotate(30deg);
+        transition: 0.5s;
     }
     }
     
@@ -131,6 +134,7 @@
     margin-right: 10px;
     &:hover{
         transform: rotate(30deg);
+        transition: 0.5s;
     }
     }
 .immarcadif{
@@ -142,6 +146,7 @@
     margin-right: 10px;
     &:hover{
         transform: rotate(-30deg); 
+        transition: 0.5s;
     }
     
 .pmarca{

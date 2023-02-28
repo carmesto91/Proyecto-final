@@ -108,7 +108,7 @@ body {
     border-radius: 1rem; }
     body .contenedor .foto-principal:hover {
       transform: scale(1.2);
-      transition: 2s; }
+      transition: 0.5s; }
   body .contenedor .hometext {
     margin-right: 0.5rem;
     margin-top: 5rem;
@@ -149,7 +149,7 @@ body {
     border-radius: 10%; }
     body .imauto:hover {
       transform: scale(1.5);
-      transition: 3s;
+      transition: 0.5s;
       border: solid 2px black; }
   body .t-auto {
     text-align: center;
@@ -220,7 +220,8 @@ body {
     width: auto;
     margin-top: 2rem; }
     body .marca .h3marcadif:hover {
-      transform: scale(1.5); }
+      transform: scale(1.5);
+      transition: 0.5s; }
   body .marca .h3marca {
     font-size: 4rem;
     font-family: 'Courier New', Courier, monospace;
@@ -230,7 +231,8 @@ body {
     text-align: center;
     width: auto; }
     body .marca .h3marca:hover {
-      transform: scale(1.5); }
+      transform: scale(1.5);
+      transition: 0.5s; }
   body .marca .immarca {
     width: 20rem;
     position: static;
@@ -239,7 +241,8 @@ body {
     margin-right: 10px;
     display: center; }
     body .marca .immarca:hover {
-      transform: rotate(30deg); }
+      transform: rotate(30deg);
+      transition: 0.5s; }
   body .marca .immarcaa {
     width: 20rem;
     position: static;
@@ -248,7 +251,8 @@ body {
     margin-left: 10px;
     margin-right: 10px; }
     body .marca .immarcaa:hover {
-      transform: rotate(30deg); }
+      transform: rotate(30deg);
+      transition: 0.5s; }
   body .marca .immarcadif {
     width: 20rem;
     position: static;
@@ -257,7 +261,8 @@ body {
     margin-left: 10px;
     margin-right: 10px; }
     body .marca .immarcadif:hover {
-      transform: rotate(-30deg); }
+      transform: rotate(-30deg);
+      transition: 0.5s; }
     body .marca .immarcadif .pmarca {
       display: block;
       color: #207cca;
@@ -276,7 +281,8 @@ body {
     margin-bottom: 1rem;
     border-radius: 15%; }
     body .imgken:hover {
-      transform: rotate(-25deg); }
+      transform: rotate(-25deg);
+      transition: 0.5s; }
   body .pken {
     text-align: right;
     color: white;
@@ -285,7 +291,8 @@ body {
     width: 30rem;
     border-radius: 15%; }
     body .imgwrc:hover {
-      transform: rotate(-25deg); }
+      transform: rotate(-25deg);
+      transition: 0.5s; }
   body .pwrc {
     text-align: right;
     margin-bottom: 1rem;
@@ -383,4 +390,5 @@ body {
     border: solid 2px brown; }
   body .final:hover {
     transform: rotate(90);
-    transform: scale(1.5); }
+    transform: scale(1.5);
+    transition: 0.5s; }
